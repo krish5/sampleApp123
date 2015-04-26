@@ -77,26 +77,6 @@ h1 {
     padding:0px;
     text-align:center;
 }
-
-.event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
-}
-
-.event.listening {
-    background-color:#333333;
-    display:block;
-}
-
-.event.received {
-    background-color:#4B946A;
-    display:none;
-}
-
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
@@ -112,4 +92,43 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.basicBtn{
+	padding-bottom:30px;
+}
+
+.Absolute-Center {
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Center-Container {
+  position: relative;
+}
+.imgLft{
+	border: 10px solid black;	
+	cursor:pointer;
+	margin-top:30px;
+}
+.imgRgt{
+	cursor:pointer;
+	border: 10px solid black;
+	clear:both;
+}
+.quoteFnt{
+	font-family:'Verdana','HelveticaNeue' ;
+    font-size:14px;
+	font-style:italic;
+	text-align:justify;
+	margin:0px 10px;
+	height:40px;
+}
+.imgLR{
+	position: fixed;
+    bottom: 20px;
+    width: 100%;
+	text-align: center;
 }
